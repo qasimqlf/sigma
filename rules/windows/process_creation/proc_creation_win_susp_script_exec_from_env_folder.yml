@@ -30,7 +30,7 @@ detection:
     selection_original:
         OriginalFileName:
             - 'powershell.exe'
-            - 'pwsh.dll'
+            - 'pwsh.exe'
             - 'mshta.exe'
             - 'wscript.exe'
             - 'cscript.exe'
