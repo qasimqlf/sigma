@@ -16,7 +16,7 @@ detection:
     selection:
         OriginalFileName:
             - 'powershell.exe'
-            - 'pwsh.dll'
+            - 'pwsh.exe'
             - 'powershell_ise.exe'
             - 'psexec.exe'
             - 'psexec.c'        # old versions of psexec (2016 seen)
