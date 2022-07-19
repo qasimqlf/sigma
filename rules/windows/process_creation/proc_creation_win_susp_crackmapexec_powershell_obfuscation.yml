@@ -17,7 +17,7 @@ detection:
             - 'powershell.exe'
             - 'pwsh.exe'
     snippets:
-        CommandLine|contains:
+        CommandLine|contains|re:
             - 'join*split'
                   # Line 343ff
             - '( $ShellId[1]+$ShellId[13]+''x'')'
