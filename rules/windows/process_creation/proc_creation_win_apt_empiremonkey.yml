@@ -20,7 +20,7 @@ detection:
     selection_regsvr32:
         CommandLine|endswith: '/i:%APPDATA%\logs.txt scrobj.dll'
         Description: 'Microsoft(C) Registerserver'
-    condition: 1 of selection*
+    condition: 1 of selection_*
 falsepositives:
     - Very Unlikely
 level: critical
