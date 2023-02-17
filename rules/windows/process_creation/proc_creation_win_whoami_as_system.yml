@@ -22,7 +22,7 @@ detection:
     selection_img:
         - OriginalFileName: 'whoami.exe'
         - Image|endswith: '\whoami.exe'
-    condition: all of selection*
+    condition: all of selection_*
 falsepositives:
     - Possible name overlap with NT AUHTORITY substring to cover all languages
 level: high
