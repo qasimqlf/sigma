@@ -28,10 +28,10 @@ detection:
             - 'shell32.dll'
             - 'shellexec_rundll'
         ServiceFileName|contains:
-            - value
-            - invoke
-            - comspec
-            - iex
+            - 'value'
+            - 'invoke'
+            - 'comspec'
+            - 'iex'
     condition: selection
 falsepositives:
     - Unknown
